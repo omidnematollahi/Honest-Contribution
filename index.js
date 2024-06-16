@@ -64,7 +64,7 @@ rl.question('Enter your GitHub email: ', (email) => {
 
             rl.close();
 
-            runGitCommand('git push origin main');
+            runGitCommand('git push origin master');
         });
     });
 });
